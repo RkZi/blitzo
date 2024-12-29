@@ -2,7 +2,7 @@
     <div class="cashier-deposit">
 
         <div class="deposit-section">
-            <div class="section-title">Growtopia</div>
+            <div class="section-title">Blitzo</div>
 
             <CashierElement v-on:click.native="modalCreditButton()" type="" method="credit" v-bind:enabled="generalSettings.credit.deposit.enabled" />
 

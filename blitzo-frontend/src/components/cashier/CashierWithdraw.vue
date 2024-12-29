@@ -1,7 +1,7 @@
 <template>
     <div class="cashier-withdraw">
         <div class="withdraw-section">
-            <div class="section-title">Growtopia</div>
+            <div class="section-title">Blitzo</div>
 
             <CashierElement v-on:click.native="modalRobuxButton()" type="roblox" method="robux" v-bind:enabled="generalSettings.robux.withdraw.enabled" />
             <CashierElement v-on:click.native="modalLimitedsButton()" type="roblox" method="limiteds" v-bind:enabled="generalSettings.limited.withdraw.enabled" />
