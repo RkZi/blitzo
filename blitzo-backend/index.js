@@ -40,7 +40,7 @@ app.use(
   cors({
     origin: [
       ...process.env.SERVER_FRONTEND_URL.split(","),
-      "http://139.59.67.53",
+      "http://64.227.176.29",
     ],
     credentials: true,
   })
